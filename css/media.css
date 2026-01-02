@@ -1,3 +1,19 @@
-@media screen and (max-width:) {
-    
+@media screen and (max-width: 540px) {
+    .stats__inner {
+        padding: 70px 20px;
+    }
+    .inner__left {
+        padding-right: 40px;
+    }
+    .inner__right {
+        padding-left: 40px;
+    }
+}
+@media screen and (max-width: 425px) {
+    .inner__left {
+        padding-right: 20px;
+    }
+    .inner__right {
+        padding-left: 20px;
+    }
 }

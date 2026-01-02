@@ -40,17 +40,17 @@ body {
     text-align: center;
     padding: 170px 0;
 }
-.title {
+.features-title {
     font-weight: 500;
     color: var(--blue-color);
 }
-.title h2 {
+.features-title__heading {
     font-size: 10px;
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-.title p {
+.features-title__subtitle {
     font-size: 24px;
     margin-bottom: 93px;
 }
@@ -85,7 +85,7 @@ body {
     gap: 111px;
     flex-wrap: wrap;
 }
-.buttons a {
+.btn__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,13 +94,48 @@ body {
     font-size: 13px;
     font-weight: 700;
 }
-.buttons__readmore {
+.btn--primary {
     color: rgba(212, 63, 63, 1);
     border-radius: 2px;
     background: rgba(255, 215, 215, 1);
 }
-.buttons__getstarted {
+.btn--secondary {
     color: rgba(58, 121, 255, 1);
     border-radius: 2px;
     background: rgba(210, 225, 255, 1);
+}
+/* Stats */
+.stats {
+    background: linear-gradient(90deg, rgba(94, 128, 255, 1) 50%,rgba(223, 233, 255, 1) 0%);
+}
+.stats__inner {
+    padding: 70px 0;
+    display: flex;
+    justify-content: center;
+}
+.inner__left {
+    color: #fff;
+    padding-right: 90px;
+    text-align: right;
+    width: 50%;
+    max-width: 340px;
+}
+.inner__right {
+    color: rgba(58, 121, 255, 1);
+    padding-left: 90px;
+    text-align: left;
+    width: 50%;
+    max-width: 340px;
+}
+.inner__img {
+    margin-bottom: 15px;
+}
+.status__number {
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+.status__desc {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.6px;
 }
