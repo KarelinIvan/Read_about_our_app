@@ -1,3 +1,12 @@
+@media screen and (max-width: 1024px) {
+    .blog-inner {
+        max-width: 900px;
+        gap: 40px;
+    }
+    .content__title {
+        margin-bottom: 19px;
+    }
+}
 @media screen and (max-width: 940px) {
     .blog-inner {
         max-width: 480px;
