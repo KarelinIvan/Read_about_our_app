@@ -1,3 +1,10 @@
+@media screen and (max-width: 940px) {
+    .blog-inner {
+        max-width: 480px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
 @media screen and (max-width: 540px) {
     .stats__inner {
         padding: 70px 20px;
@@ -7,6 +14,14 @@
     }
     .inner__right {
         padding-left: 40px;
+    }
+    .blog-inner {
+        max-width: 320px;
+    }
+    .blog-inner__gallery {
+    grid-template-areas: 
+        "gallery__item1 gallery__item1"
+        "gallery__item2 gallery__item3";
     }
 }
 @media screen and (max-width: 425px) {
