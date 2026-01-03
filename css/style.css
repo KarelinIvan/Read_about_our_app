@@ -140,3 +140,8 @@ body {
     font-weight: 500;
     letter-spacing: 0.6px;
 }
+/* Blog */
+.blog {
+    padding: 100px 0;
+    text-align: center;
+}
