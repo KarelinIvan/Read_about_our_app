@@ -40,17 +40,17 @@ body {
     text-align: center;
     padding: 170px 0;
 }
-.features-title {
+.block-title {
     font-weight: 500;
     color: var(--blue-color);
 }
-.features-title__heading {
+.block-title__heading {
     font-size: 10px;
     letter-spacing: 1px;
     text-transform: uppercase;
     margin-bottom: 20px;
 }
-.features-title__subtitle {
+.block-title__subtitle {
     font-size: 24px;
     margin-bottom: 93px;
 }
@@ -109,7 +109,8 @@ body {
     background: linear-gradient(90deg, rgba(94, 128, 255, 1) 50%,rgba(223, 233, 255, 1) 0%);
 }
 .stats__inner {
-    padding: 70px 0;
+    padding-top: 70px;
+    padding-bottom: 65px;
     display: flex;
     justify-content: center;
 }
@@ -130,11 +131,11 @@ body {
 .inner__img {
     margin-bottom: 15px;
 }
-.status__number {
+.stats__number {
     font-size: 48px;
     margin-bottom: 20px;
 }
-.status__desc {
+.stats__desc {
     font-size: 18px;
     font-weight: 500;
     letter-spacing: 0.6px;
